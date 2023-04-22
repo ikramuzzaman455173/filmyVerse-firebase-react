@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  /* transition: all 3s linear; */
+}
+body{
+  background: #000;
+  color: white;
+}
+.card{
+  background: rgb(19,19,19)
+}
+.header{
+  background:#15161a;
+}
