@@ -111,7 +111,7 @@ const Login = () => {
 
                 <div>
                   <label className="block mb-2 text-sm font-semibold">Mobile No.</label>
-                  <input required value={form.phoneNo} onChange={(e) => setForm({ ...form, mobile: e.target.value })} type="number" name="phoneNo" placeholder="+880" className="w-full px-3 py-2 border rounded-md border-gray-300 text-black bg-black font-medium" />
+                  <input required value={form.phoneNo} onChange={(e) => setForm({ ...form, mobile: e.target.value })} type="number" name="phoneNo" placeholder="+880" className="w-full px-3 py-2 border rounded-md border-gray-300 bg-gray-50 text-gray-800 font-medium" />
                 </div>
 
                 <div className='relative'>
